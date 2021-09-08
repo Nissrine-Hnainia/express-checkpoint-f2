@@ -1,0 +1,17 @@
+{
+  "name": "checkpoint-express-f2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "back": "nodemon server.js"
+  },
+  "author": "Nissrine",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

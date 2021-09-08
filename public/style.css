@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("coffee-shop.jfif");
+    background-size: cover;
+}
+header{
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 85px;
+}
+header img{
+    width: 8%;
+}
+nav{
+    padding-right: 40px;
+}
+a{
+    margin-left: 20px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: #3f3c3c;
+    font-size: large;
+    position: relative;
+}
+a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #3f3c3c;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+a:hover::after{
+    width: 100%;
+}
+h1{
+    width: 50vw;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    color: wheat;
+}
+h3 {
+    text-align: center;
+    color: wheat;
+    margin-top: 50px;
+}
+p{
+    color: wheat;
+    width: 30vw;
+    margin: auto;
+    text-align: justify;
+    margin-top: 60px;
+    font-size: 23px;
+}
+.btns{
+    width: 22%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 150px;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 3px solid wheat;
+    background-color: transparent;
+    color: wheat;
+    font-size: large;
+    cursor: pointer;
+}
+button:hover{
+    background-color: wheat;
+    color: black;
+}
